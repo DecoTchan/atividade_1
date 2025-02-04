@@ -41,8 +41,8 @@ pico_set_program_name(atividade_1 "atividade_1")
 pico_set_program_version(atividade_1 "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(atividade_1 0)
-pico_enable_stdio_usb(atividade_1 0)
+pico_enable_stdio_uart(atividade_1 1)
+pico_enable_stdio_usb(atividade_1 1)
 
 # Add the standard library to the build
 target_link_libraries(atividade_1
